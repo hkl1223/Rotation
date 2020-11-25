@@ -101,3 +101,4 @@ $.fn.carousel = function() {
         new Carousel($(node))
     })
 }
+$('.carousel').carouse()
