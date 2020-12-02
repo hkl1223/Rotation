@@ -82,7 +82,7 @@ Carousel.prototype = {
         var _this = this
         this.autoClock = setInterval(function(){
             _this.playNext(1)
-        },1000)
+        },3000)
     },
     stopAuto:function(){
         clearInterval(this.autoClock)
